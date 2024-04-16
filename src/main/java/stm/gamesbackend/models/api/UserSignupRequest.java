@@ -30,6 +30,6 @@ public class UserSignupRequest {
     final private String email;
 
     @NotNull(message = "password is required.")
-    @Size(min = 8, max = 32, message = "firstName must be between 8 and 32 characters long.")
+    @Size(min = 8, max = 32, message = "password must be between 8 and 32 characters long.")
     final private String password;
 }
