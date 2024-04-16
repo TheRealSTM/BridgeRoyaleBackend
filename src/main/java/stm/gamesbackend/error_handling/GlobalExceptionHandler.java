@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import stm.gamesbackend.models.APIResponse;
+import stm.gamesbackend.models.api.APIResponse;
 
 import java.util.ArrayList;
 import java.util.List;
