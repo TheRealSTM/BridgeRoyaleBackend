@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Users (
+    userID VARCHAR(64) PRIMARY KEY,
+    accountCreationDate TIMESTAMP,
+    email VARCHAR(128) UNIQUE NOT NULL,
+    username VARCHAR(32) UNIQUE NOT NULL,
+    password VARCHAR(32)
+);
